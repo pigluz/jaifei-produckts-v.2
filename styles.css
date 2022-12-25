@@ -1,0 +1,40 @@
+body {
+    background-image: url("jaifei.jpg");
+    background-repeat: repeat;
+    background-size: 250px;
+}
+
+.head {
+    padding: 10px;
+    background-color: rgb(139, 0, 139, 0.85);
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rest {
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    background-color: rgb(139, 0, 139, 0.85);
+    border-radius: 50px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 50px
+}
+
+p { 
+    text-align: center;
+    
+}
