@@ -6,7 +6,7 @@ body {
 
 .head {
     padding: 10px;
-    background-color: rgb(139, 0, 139, 0.85);
+    background-color: rgba(78, 197, 114, 0.85);
     text-align: center;
     font-size: 25px;
     border-radius: 50px;
@@ -22,8 +22,9 @@ header {
     padding: 10px;
     padding-left: 50px ;
     padding-right: 50px;
-    background-color: rgb(139, 0, 139, 0.85);
+    background-color: rgba(78, 197, 114, 0.85);
     border-radius: 50px;
+    height: 650px;
 }
 
 hr {
@@ -34,7 +35,40 @@ h1 {
     font-size: 50px
 }
 
-p { 
+img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+p {
     text-align: center;
-    
+
+}
+
+.opis {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.85);
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 555px;
+    border-radius: 20px;
+}
+
+.cena {
+}
+
+button {
+    text-align: center;
+    margin-left: 470px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+button.hover {
+    background-color: aquamarine;
 }
