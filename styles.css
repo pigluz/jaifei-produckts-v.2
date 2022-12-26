@@ -24,7 +24,7 @@ header {
     padding-right: 50px;
     background-color: rgba(78, 197, 114, 0.85);
     border-radius: 50px;
-    height: 2100px;
+    height: 2200px;
 }
 
 hr {
@@ -67,7 +67,7 @@ p {
 button {
     font-weight: bolder;
     text-align: center;
-    margin-left: 1200px;
+    margin-left: 950px;
     padding: 15px;
     border: none;
     border-radius: 50px;
