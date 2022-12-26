@@ -24,11 +24,13 @@ header {
     padding-right: 50px;
     background-color: rgba(78, 197, 114, 0.85);
     border-radius: 50px;
-    height: 650px;
+    height: 2100px;
 }
 
 hr {
-    border: 1px solid white;
+    border: 3px solid white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -44,9 +46,8 @@ img {
 
 p {
     text-align: center;
-
+    font-size: 24px;
 }
-
 .opis {
     text-align: center;
     background-color: rgb(255, 255, 255, 0.85);
@@ -57,18 +58,19 @@ p {
 }
 
 .cena {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+
 }
 
 button {
+    font-weight: bolder;
     text-align: center;
-    margin-left: 470px;
+    margin-left: 1200px;
     padding: 15px;
     border: none;
     border-radius: 50px;
     font-size: 50px;
     cursor: pointer;
-}
-
-button.hover {
-    background-color: aquamarine;
 }
