@@ -1,67 +1,31 @@
 body {
-    background-image: url("jaifei.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../assets/jaifei.jpg");
     background-repeat: repeat;
     background-size: 250px;
 }
 
-.head {
-    padding: 10px;
-    background-color: rgba(78, 197, 114, 0.85);
-    text-align: center;
-    font-size: 25px;
-    border-radius: 50px;
-}
 
 header {
     font-size: 50px;
     font-weight: bold;
 }
 
-.rest {
-    margin-top: 50px;
-    padding: 10px;
-    padding-left: 50px ;
-    padding-right: 50px;
-    background-color: rgba(78, 197, 114, 0.85);
-    border-radius: 50px;
-    height: 2200px;
-}
-
 hr {
     border: 3px solid white;
+    border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+
 }
 
 h1 {
     font-size: 50px
 }
 
-img {
-    float: left;
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-}
-
 p {
     text-align: center;
     font-size: 24px;
-}
-.opis {
-    text-align: center;
-    background-color: rgb(255, 255, 255, 0.85);
-    font-size: 30px;
-    padding: 50px;
-    margin-left: 555px;
-    border-radius: 20px;
-}
-
-.cena {
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 500px;
-
 }
 
 button {
@@ -75,6 +39,86 @@ button {
     cursor: pointer;
 }
 
+
+a {
+    color: black;
+}
+
+ul {
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: rgba(78, 197, 114, 0.85);
+    border-radius: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+}
+  
+li {
+    display: inline;
+    padding: 40px;
+}
+
+
 button:hover {
     background-color: rgb(97, 209, 97, 0.5);
+}
+
+.head {
+    padding: 10px;
+    background-color: rgba(78, 197, 114, 0.85);
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.rest {
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(78, 197, 114, 0.85);
+    border-radius: 50px;
+}
+
+.opis {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.85);
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 555px;
+    border-radius: 20px;
+}
+
+.opis-index {
+    background-color: rgb(255, 255, 255, 0.85);
+    font-size: 20px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.cena {
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.active {
+    color: white;
+    background-color: hwb(0 100% 0% / 0.705);
+    cursor:default;
+    border-radius: 100px;
+}
+
+.img-hity {
+    float: left;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.img-index {
+    width:1350px; 
+    height:500px;
 }
