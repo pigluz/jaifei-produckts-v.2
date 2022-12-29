@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("assets/jaifei.jpg");
@@ -19,8 +20,13 @@ hr {
 
 }
 
+.ok {
+    font-family: 'Caramel', cursive;
+    font-size:90px;
+}
+
 h1 {
-    font-size: 50px
+    font-size: 50px;
 }
 
 p {
@@ -122,3 +128,4 @@ button:hover {
     width:1350px; 
     height:500px;
 }
+
