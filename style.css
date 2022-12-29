@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Dancing+Script:wght@700&family=Fredoka+One&family=Rubik:wght@300&display=swap');
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-image: url("assets/jaifei.jpg");
     background-repeat: repeat;
     background-size: 250px;
@@ -8,8 +8,9 @@ body {
 
 
 header {
+    font-family: 'Dancing Script', cursive;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 hr {
@@ -20,12 +21,8 @@ hr {
 
 }
 
-.ok {
-    font-family: 'Caramel', cursive;
-    font-size:90px;
-}
-
 h1 {
+    font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
 
@@ -35,6 +32,7 @@ p {
 }
 
 button {
+    font-family: 'Rubik', sans-serif;
     font-weight: bolder;
     text-align: center;
     margin-left: 950px;
@@ -51,6 +49,7 @@ a {
 }
 
 ul {
+    font-family: 'Dancing Script', cursive;
     padding-top: 10px;
     margin-top: 30px;
     background-color: rgba(78, 197, 114, 0.85);
@@ -89,7 +88,7 @@ button:hover {
     border-radius: 50px;
 }
 
-.opis {
+.opis-hity {
     text-align: center;
     background-color: rgb(255, 255, 255, 0.85);
     font-size: 30px;
@@ -105,18 +104,6 @@ button:hover {
     border-radius: 20px;
 }
 
-.cena {
-    font-size: 50px;
-    margin-left: 500px;
-}
-
-.active {
-    color: white;
-    background-color: hwb(0 100% 0% / 0.705);
-    cursor:default;
-    border-radius: 100px;
-}
-
 .img-hity {
     float: left;
     width: 500px;
@@ -129,3 +116,25 @@ button:hover {
     height:500px;
 }
 
+
+.cena {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.active {
+    color: white;
+    background-color: hwb(0 100% 0% / 0.705);
+    cursor:default;
+    border-radius: 100px;
+}
+
+.header {
+    font-family: 'Dancing Script', cursive;
+    font-size:90px;
+}
+
+.footer {
+    font-family: 'Rubik', sans-serif;
+}
